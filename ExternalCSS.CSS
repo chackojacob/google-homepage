@@ -1,0 +1,302 @@
+html{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border:0;
+    font: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+header{
+font-size: small;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+li a {
+    text-decoration: none;
+}
+.topbar li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+ul .signin{
+    border-radius: 1px;
+    background-color: #3b80f7;
+    color: white;
+    padding: 10px;
+}
+.topbar a:hover{
+    text-decoration: underline;
+    opacity: .70;
+}
+#main{
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+}
+#searchbar{
+    background-image: url(maglass.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+input {
+    width: 600px;
+    border-radius: 25px;
+    height: 18px;
+    padding: 10px;
+}
+.buttons{
+    padding: 15px;
+}
+button{
+    background-color: lightgray;
+    padding: 5px 25px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+nav .languages{
+    text-align: center;
+}
+.languages li{
+    display: inline-block;
+}
+.languages li:hover{
+    text-decoration: underline;
+}
+#footer1{
+    display: flex;
+    align-items: center;
+    margin-top: 450px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(242, 242, 242);
+    padding-left: 5px;
+    border: 1px solid rgb(221, 220, 220);
+    color: #7c7a7a;
+}
+#footer2{
+    position: fixed;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+}
+.footer21{
+    float: left;
+}
+.footer21 a{
+    text-decoration: none;
+    color: #7c7a7a;
+    font-size: small;
+    padding: 10px;
+}
+
+.footer21 a:hover{
+    text-decoration: underline;
+}
+
+.footer22{
+    float: right;
+}
+.footer22 a{
+    text-decoration: none;
+    color: #7c7a7a;
+    font-size: small;
+    padding: 10px;
+}
+.footer22 a:hover{
+    text-decoration: underline;
+}
+
+
+/*.footers2{
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(242, 242, 242);
+    padding-left: 5px;  
+    border: 1px solid rgb(221, 220, 220);
+}
+.footers21{
+    float: left;
+}
+.footers21 a {
+    text-decoration: none;
+    padding: 5px;
+    color: #7c7a7a;
+}
+.footers22{
+    float: right;
+}
+.footers22 a {
+    
+    text-decoration: none;
+    padding: 5px;
+    color: #7c7a7a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    padding: 20px;
+    vertical-align: middle;
+}
+#navbar li{
+    float: right;   
+}
+#navbar li a{
+    display: block;
+    padding: 5px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+#navbar li button{
+    -webkit-appearance: none;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+    color: #a6a6a6;
+    opacity: .85;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 300px;
+}
+#searchbar{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#searchbar input{
+    width: 600px;
+    height: 30px;
+    border-radius: 10px; 
+}
+#twobuttons{
+    float: center;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#offering{
+    text-align: center;
+}
+#offering li{
+    display: inline-block;
+    /*padding-bottom: 340px;*/
+}
+
+.location p {
+    float: left;
+
+}
+
+
+
+/*
+#footer{
+    background-color: rgb(217, 224, 217) !important;
+}
+#footerleft li a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+#footerright li a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+/*.navbar {
+    list-style-type: none;
+}
+.navbar li{
+    float: right; 
+    padding-top: 15px;
+}
+.navbar li button{
+    background-color: rgb(53, 140, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 5px 18px;
+}
+.navbar li button:hover{
+    background-color: rgb(19, 48, 82);
+    color: white;
+}
+.navbar li a {
+    text-decoration: none;
+}
+footer{
+    background-color: lightgray;
+}
+.footerbarleft{
+    list-style-type: none;
+}
+.footerbarleft li a{
+    text-decoration: none;
+}
+.footerbarleft li{
+    float: left;
+    padding: 5px;
+}
+.footerbaright{
+    list-style-type: none;
+}
+.footerbaright li a {
+    text-decoration: none;
+}
+.footerbaright li{
+    float: right;
+    padding: 5px;
+}*/
