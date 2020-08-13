@@ -72,9 +72,59 @@ nav .languages{
 .languages li{
     display: inline-block;
 }
-.languages li:hover{
+.languages li a:hover{
     text-decoration: underline;
 }
+#footer1{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    border: 0.1px solid rgb(194, 191, 191);
+    background-color:lightgray;
+    height: 40px;
+    width: 100%;
+    color: gray;
+    padding-left: 15px;
+}
+.footers{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: small;
+    align-items: center;
+    gap: 10px;
+    bottom: 0px;
+    border: 0.1px solid rgb(194, 191, 191);
+    background-color:lightgray;
+    height: 40px;
+    width: 100%;
+    color: gray;
+}
+#footer3{
+    justify-self: end;
+    padding-right: 30px;
+}
+#footer3 a{
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+}
+#footer3 a:hover{
+    text-decoration: underline;
+}
+#footer2{
+    padding-left: 15px;
+}
+#footer2 a{
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+}
+#footer2 a:hover{
+    text-decoration: underline;
+
+/*
 #footer1{
     display: flex;
     align-items: center;
@@ -94,6 +144,7 @@ nav .languages{
     height: 40px;
     color: rgba(0,0,0,.54);
     background: #f2f2f2;
+    border: 1px solid rgb(221, 220, 220);
 }
 .footer21{
     float: left;
@@ -120,7 +171,6 @@ nav .languages{
 }
 .footer22 a:hover{
     text-decoration: underline;
-}
 
 
 /*.footers2{
